@@ -14,7 +14,6 @@ Advanced Security Class for Php
 - Advanced Encrypte - Decrypte
 - Undecryptable Encryption
 - Advanced WAF system
-- 
 
 ## Install
 
