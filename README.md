@@ -51,7 +51,7 @@ $security->waf(True,True,True,True,True);
 
 
 ## Docs
-Documentation page: [Buki\Router Docs][doc-url]
+Documentation page: [Security Docs][doc-url]
 
 
 ## Licence
