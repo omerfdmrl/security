@@ -38,12 +38,12 @@ class Security implements Security_Interface {
     /**
      * @var array $refudesExtension Refused Extensions For File Upload
      */
-    public static array $refusedExtension = ['php'];
+    public static array $refusedExtension = ['php','bat',''];
 
     /**
      * @var array $allowedExtension Allowed Extensions For File Upload
      */
-    public static array $allowedExtension;
+    public static array $allowedExtension = ['jpg','png','gif'];
 
     /**
      * @var string|int $csrfTokenName Token Name For Use In Forms And Session
