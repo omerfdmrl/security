@@ -1,6 +1,6 @@
 {
     "name": "omerfdmrl/security",
-    "description": "Php Security Class",
+    "description": "Security Class",
     "type": "library",
     "license": "MIT",
     "autoload": {
