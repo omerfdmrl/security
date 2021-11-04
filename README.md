@@ -2,7 +2,7 @@
 
 Advanced Security Class for Php
 
-[![Total Downloads](https://poser.pugx.org/izniburak/router/d/total.svg)](https://packagist.org/packages/omerfdmrl/security)
+[![Total Downloads](https://poser.pugx.org/omerfdmrl/waf/d/total.svg)](https://packagist.org/packages/omerfdmrl/security)
 [![Latest Stable Version](https://poser.pugx.org/izniburak/router/v/stable.svg)](https://packagist.org/packages/omerfdmrl/security)
 [![Latest Unstable Version](https://poser.pugx.org/izniburak/router/v/unstable.svg)](https://packagist.org/packages/omerfdmrl/security)
 [![License](https://poser.pugx.org/izniburak/router/license.svg)](https://packagist.org/packages/omerfdmrl/security)
