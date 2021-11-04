@@ -2,9 +2,12 @@
 
 Advanced Security Class for Php
 
+[![Latest Stable Version](http://poser.pugx.org/omerfdmrl/security/v)](https://packagist.org/packages/omerfdmrl/security) 
+[![Total Downloads](http://poser.pugx.org/omerfdmrl/security/downloads)](https://packagist.org/packages/omerfdmrl/security) 
+[![Latest Unstable Version](http://poser.pugx.org/omerfdmrl/security/v/unstable)](https://packagist.org/packages/omerfdmrl/security) 
+[![License](http://poser.pugx.org/omerfdmrl/security/license)](https://packagist.org/packages/omerfdmrl/security) 
+[![PHP Version Require](http://poser.pugx.org/omerfdmrl/security/require/php)](https://packagist.org/packages/omerfdmrl/security)
 
-[![Latest Unstable Version](https://poser.pugx.org/omerfdmrl/waf/v/unstable.svg)](https://packagist.org/packages/omerfdmrl/security)
-[![License](https://poser.pugx.org/omerfdmrl/waf/license.svg)](https://packagist.org/packages/omerfdmrl/security)
 
 ### Features
 - Secure From XSS, CSRF, SQL Injection, BASE64, RFI, LFI, Command Injection, Block Suspicious Request Methods, Block Suspicious User Agents And Requests, 
