@@ -88,6 +88,9 @@ class Security implements Security_Interface {
         RewriteCond %{THE_REQUEST} cgi-bin [NC,OR]
         RewriteCond %{THE_REQUEST} (%0A|%0D) [NC,OR]
         
+        # Block Indexes
+        Options -Indexes
+        
         # Block LFI and RFI
         php_flag allow_url_include off
         php_flag allow_url_fopen off
