@@ -60,7 +60,7 @@ Documentation page: [Security Docs][doc-url]
 
 ## Contributing
 
-1. Fork it ( https://github.com/omerfdmrl/waf/fork )
+1. Fork it ( https://github.com/omerfdmrl/security/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -71,4 +71,4 @@ Documentation page: [Security Docs][doc-url]
 - [omerfdmrl](https://github.com/omerfdmrl) Ömer Faruk Demirel - creator, maintainer
 
 [mit-url]: http://opensource.org/licenses/MIT
-[doc-url]: https://github.com/omerfdmrl/waf/wiki
+[doc-url]: https://github.com/omerfdmrl/security/wiki
