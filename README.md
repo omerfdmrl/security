@@ -10,7 +10,8 @@ Advanced Security Class for Php
 
 
 ### Features
-- Secure From XSS, CSRF, SQL Injection, BASE64, RFI, LFI, Command Injection, Block Suspicious Request Methods, Block Suspicious User Agents And Requests, 
+- Secure From XSS, CSRF, SQL Injection, BASE64, RFI, LFI, Command Injection, Block Suspicious Request Methods, Block Suspicious User Agents And Requests
+- Block exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source Functions
 - Advanced Encrypte - Decrypte
 - Undecryptable Encryption
 - Advanced WAF system
