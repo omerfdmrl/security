@@ -87,6 +87,10 @@ class Security implements Security_Interface {
         RewriteCond %{THE_REQUEST} etc/passwd [NC,OR]
         RewriteCond %{THE_REQUEST} cgi-bin [NC,OR]
         RewriteCond %{THE_REQUEST} (%0A|%0D) [NC,OR]
+        
+        # Url
+        php_flag allow_url_include off
+        php_flag allow_url_fopen off
 
         # Block MySQL injections, RFI, base64, etc.
         RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http:// [OR]
