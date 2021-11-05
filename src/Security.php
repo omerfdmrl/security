@@ -95,11 +95,6 @@ class Security implements Security_Interface {
         php_flag allow_url_include off
         php_flag allow_url_fopen off
 
-
-        # Block Bad Commands
-        php_admin_value disable_functions \"exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source\"
-        
-
         # Block MySQL injections, RFI, base64, etc.
         RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http:// [OR]
         RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=(\.\.//?)+ [OR]
