@@ -88,9 +88,14 @@ class Security implements Security_Interface {
         RewriteCond %{THE_REQUEST} cgi-bin [NC,OR]
         RewriteCond %{THE_REQUEST} (%0A|%0D) [NC,OR]
         
-        # Url
+        # Block LFI and RFI
         php_flag allow_url_include off
         php_flag allow_url_fopen off
+
+
+        # Block Bad Commands
+        php_admin_value disable_functions \"exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source\"
+        
 
         # Block MySQL injections, RFI, base64, etc.
         RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http:// [OR]
