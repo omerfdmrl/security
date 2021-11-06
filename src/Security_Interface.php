@@ -23,6 +23,6 @@ interface Security_Interface {
 
     public function set_key($key);
 
-    public function set_cipher($key);
+    public function set_cipher($cipher);
 
 }
