@@ -48,6 +48,7 @@ $security->set_tokenName('_token');
 $security->set_htaccessPath(__DIR__ . '.htaccess');
 
 // Default is: True,True,True,True,True | You must call waf() function
+// postControl, getControl, fileControl, csrfControl, writeHtaccess
 $security->waf(True,True,True,True,True);
 ```
 
